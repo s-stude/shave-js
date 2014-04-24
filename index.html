@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title></title>
+
+    <script src="src/shave.js"></script>
+</head>
+<body>
+
+<script>
+
+    var obj = {
+        
+        about: {
+            title: "Tiny JavaScript templating engine - Shave.js",
+            desc: "You don't like string.replace, do you? Just use shave.js for this"
+        }
+       
+    };
+
+    var shaved = shave("- What is this? \r\n- {about.title}. {about.desc}!!!", obj);
+
+    console.log(shaved);
+
+</script>
+
+
+</body>
+</html>
