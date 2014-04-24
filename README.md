@@ -42,6 +42,13 @@ Use:
 - keep tags in the output string, if value was not found
 - fun!
 
+## TODO
+
+- Default value if nothing was found - `{user.firstName|'Hey, noname!'}`
+- Formatters - e.g. `{book.title:uppercase}`
+- Plurals
+- ...
+
 
 # License
 MIT
