@@ -1,0 +1,22 @@
+{
+  "name": "shave-js",
+  "version": "0.1.0",
+  "description": "Tiny JavaScript templating engine - shave.js",
+  "main": "src/shave.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/s-stude/shave-js.git"
+  },
+  "keywords": [
+    "templates"
+  ],
+  "author": "Akim Khalilov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-stude/shave-js/issues"
+  },
+  "homepage": "https://github.com/s-stude/shave-js"
+}
