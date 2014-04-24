@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/s-stude/shave-js/issues"
   },
-  "homepage": "https://github.com/s-stude/shave-js"
+  "homepage": "https://github.com/s-stude/shave-js",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "load-grunt-tasks": "^0.4.0",
+    "load-grunt-config": "^0.8.0",
+    "grunt-contrib-concat": "^0.4.0"
+  }
 }
