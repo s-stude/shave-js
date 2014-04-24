@@ -12,15 +12,19 @@
     var obj = {
         
         about: {
-            title: "Tiny JavaScript templating engine - Shave.js",
-            desc: "You don't like string.replace, do you? Just use shave.js for this"
+            title: "Tiny JavaScript templating engine - shave.js",
+            more: {
+                desc: "You don't like string.replace, do you? Just use shave.js for this"
+            }
         }
        
     };
 
-    var shaved = shave("- What is this? \r\n- {about.title}. {about.desc}!!!", obj);
+    var whoami = shave("- What is this? - {about.title}!!!", obj);
+    var details = shave("- Details, please?! - Sure - {about.mode.desc}.", obj);
 
-    console.log(shaved);
+    console.log(whoami);
+    console.log(details);
 
 </script>
 
