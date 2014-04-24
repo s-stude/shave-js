@@ -10,7 +10,7 @@
 <script>
 
     var obj = {
-        
+        root: 'This is root.',
         about: {
             title: "Tiny JavaScript templating engine - shave.js",
             more: {
@@ -22,9 +22,11 @@
 
     var whoami = shave("- What is this? - {about.title}!!!", obj);
     var details = shave("- Details, please?! - Sure - {about.mode.desc}.", obj);
+    var root = shave("I do support a root level prop - {root}", obj);
 
     console.log(whoami);
     console.log(details);
+    console.log(root);
 
 </script>
 
