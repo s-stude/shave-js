@@ -7,14 +7,12 @@ Another JS templating engine, which helps you replace tokens with object's value
 
 ## How?
 
-Include:
-
-```
+Include: 
+```html
 <script src="src/shave.js"></script>
 ```
 
 Use: 
-
 ```javascript
   var obj = {
       
@@ -28,7 +26,7 @@ Use:
   };
   
   var whoami = shave("- What is this? - {about.title}!!!", obj);
-  var details = shave("- Details, please?! - Sure - {about.mode.desc}.", obj);
+  var details = shave("- Details, please?! - Sure - {about.more.desc}.", obj);
   
   console.log(whoami);
   console.log(details);
@@ -41,7 +39,7 @@ Use:
 ## Features
 
 - deep properties: `{obj.that.has.too.many.properties}`
-- keep tags in result string, if value was not found
+- keep tags in the output string, if value was not found
 - fun!
 
 
